@@ -480,7 +480,7 @@ nav ul li a:active{
 }
 /* Background Image Section
    ========================================================================== */
-#meet {
+.meet {
   background: url(../images/first-background.jpg);
   background-position: bottom center;
   background-size: cover;
