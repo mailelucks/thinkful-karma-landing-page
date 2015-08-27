@@ -101,6 +101,11 @@ a.button {
 a.button:hover {
   background-color: #EA4620;
 }
+/* Three-Icon Set Section
+   ========================================================================== */
+   .how h1.intro {
+    color: #000;
+   }
 /* Responsive
    ========================================================================== */
 /*Ipad Portrait*/
