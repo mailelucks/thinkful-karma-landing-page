@@ -106,8 +106,11 @@ a.button:hover {
 .how {
   width: 100%;
   height: 26rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
-.how h1.intro {
+.how h2.intro {
   margin: 2.5em 0 1.5em;
   color: #000;
   font-size: 2.5em; 
@@ -121,17 +124,18 @@ a.button:hover {
   float: left;
   width: 33%;
 }
-/*.icons li img {
-  width:125px;
-  height: 125px;
-  margin-right: 0px;
-}*/
-.icons p.captions {
+p.captions {
   text-align: center;
   font-size: 1.5em;
-  font-weight: 400;
-  margin-top: 2em;  
+  font-weight: 400; 
   -webkit-font-smoothing: antialiased;
+}
+.how .devices {
+    width: 32.3333333%;
+    /* styles to assist with debugging */
+    text-align: center;
+    flex-grow: 3;
+    margin: auto;
 }
 /* Responsive
    ========================================================================== */
