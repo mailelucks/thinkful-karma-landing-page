@@ -11,6 +11,10 @@ body {
    ========================================================================== */
 .top-navigation {
   background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  border-bottom: 1px solid #DDD;
 }
 .content {
   width: 970px;
